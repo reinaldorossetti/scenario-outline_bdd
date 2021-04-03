@@ -9,8 +9,8 @@ Funcionalidade: Aqui vc descreve a sua Funcionalidade
 # Agora iremos criar um scenario outline - esquema do cenário
 # Um exemplo bem legal que encontrei é validar varias mensagens de erro na tela.
 
- @outline_teste
-Esquema do Cenário: Validar diversos usuários - Usuários que não possuem acesso a essa aplicação
+@outline_cadastros_erros
+Esquema do Cenário: Validar diversas mensagens de erros, ou seja os casos negativos ao realizar o cadastro. 
   Dado que esteja na pagina desejada
   Quando realizo o cadastro das informações
   Então valido o <campo> e a sua mensagem de erro <mensagem>
